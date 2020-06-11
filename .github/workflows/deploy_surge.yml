@@ -41,6 +41,4 @@ jobs:
      
     - name: deploying on surge
       run: surge ./build http://class2ofbootcamp2020.surge.sh/ --token ${{sectrets.SURGE_TOKEN}}
-        
-      |
     
